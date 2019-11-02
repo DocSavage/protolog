@@ -81,14 +81,14 @@ type and a CRC-32C checksum.
 
 ## File Format
 
-Header 1 (10 bytes)
-    Message # Bytes excluding fixed header (uint32, 4 bytes)
-    Checksum (4 bytes)
-    Message Type ID (uint16, 2 bytes)
-Binary Data 1 (variable # bytes)
-...
-Header N (10 bytes)
-Binary Data N (variable # bytes)
+	Header 1 (10 bytes)
+		Message # Bytes excluding fixed header (uint32, 4 bytes)
+		Checksum (4 bytes)
+		Message Type ID (uint16, 2 bytes)
+	Binary Data 1 (variable # bytes)
+	...
+	Header N (10 bytes)
+	Binary Data N (variable # bytes)
 
 ## License
 
